@@ -1,0 +1,130 @@
+{
+    "pages":[
+        {
+            "pagename":"HOME"
+        },
+        {
+            "pagename":"MENU"
+        },
+        {
+            "pagename":"YOUR BILL"
+        },
+        {
+            "pagename":"LOGIN"
+        },
+        {
+            "pagename":"REGISTER"
+        }
+    ],
+    "product":[
+        {
+            "Id": 1,
+            "ProName":"COMBO: MIX RICE & DIMSUM",
+            "Price":40,
+            "ImageUrl":"assets/image/1.jpg"
+            
+        },
+        {
+            "Id": 2,
+            "ProName":"LARGE PIZZA FOR 3 PEOPLE",
+            "Price":20,
+            "ImageUrl":"assets/image/2.jpg"
+            
+        },
+        {
+            "Id": 3,
+            "ProName":"FRENCH PORK GRILLED",
+            "Price":30,
+            "ImageUrl":"assets/image/3.jpg"
+        },
+        {
+            "Id": 4,
+            "ProName":"PUMKIN SOURP",
+            "Price":80,
+            "ImageUrl":"assets/image/4.jpg"
+            
+        },
+        {
+            "Id": 5,
+            "ProName":"GRILLED BEEF",
+            "Price":30,
+            "ImageUrl":"assets/image/5.jpg"
+            
+        },
+        {
+            "Id": 6,
+            "ProName":"ENGLISH BREAK",
+            "Price":25,
+            "ImageUrl":"assets/image/6.jpg"
+        },        
+        {
+            "Id": 7,
+            "ProName":"HUMBERGER & FRENCH FRIES",
+            "Price":20,
+            "ImageUrl":"assets/image/7.jpg"
+        },        
+        {
+            "Id": 8,
+            "ProName":"ICE CREAM",
+            "Price":16,
+            "ImageUrl":"assets/image/8.jpg"
+        }
+    ],
+    "carosel":[
+        {   
+            "name":"hero",
+            "imgurl":"assets/image/hero.jpg",
+            "title":"HELLO SUPER HEALTHY MEALS, GOODBYE JUNK FOOD ", 
+            "btn": "I'M HUNGRY",
+            "btn2": "Show me more"
+        },
+        {   
+            "name":"hero1",
+            "imgurl":"assets/image/hero1.jpg",
+            "title":"GOODBYE JUNK FOOD, HELLO SUPER HEALTHY MEALS", 
+            "btn": "I'M HUNGRY",
+            "btn2": "Show me more"
+        },
+        {
+            "name":"hero2",
+            "imgurl":"assets/image/hero2.jpg",
+            "title":"GOODBYE JUNK FOOD, HELLO SUPER HEALTHY MEALS", 
+            "btn": "I'M HUNGRY ",
+            "btn2": "Show me more"
+        }
+    ],
+    "location":[
+        {   
+            "id":"lb",
+            "image":"assets/image/lisbon-3.jpg",
+            "name":"LISBON",
+            "content1":"3700+ happy eaters",
+            "content2":"60+ top chefs",
+            "local":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1556.7780222394613!2d-9.156816!3d38.705041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x25154ece79c1592f!2sKais!5e0!3m2!1svi!2s!4v1602347302341!5m2!1svi!2s"
+        },
+        {   
+            "id":"bl",
+            "image":"assets/image/berlin.jpg",
+            "name":"BERLIN",
+            "content1":"600+ happy eaters",
+            "content2":"80+ top chefs",
+            "local":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19426.952650393232!2d13.3893313!3d52.5086594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851dae1427a93%3A0x265868c255a560bd!2sRitter%20Sport%20Bunte%20Schokowelt%20Berlin!5e0!3m2!1svi!2s!4v1602347433971!5m2!1svi!2s"
+        },
+        {   
+            "id":"sf",
+            "image":"assets/image/san-francisco.jpg",
+            "name":"SAN FRANCISCO",
+            "content1":"1600+ happy eaters",
+            "content2":"160+ top chefs",
+            "local":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1556.7780222394613!2d-9.156816!3d38.705041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x25154ece79c1592f!2sKais!5e0!3m2!1svi!2s!4v1602347302341!5m2!1svi!2s"
+        },
+        {
+            "id":"ld",
+            "image":"assets/image/london.jpg",
+            "name":"LONDON",
+            "content1":"1500+ happy eaters",
+            "content2":"160+ top chefs",
+            "local":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8361.815002337913!2d-0.14369636945563832!3d51.45847821992255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605b4635abc0f%3A0xa022e501f19a3124!2sThe%20Rookery!5e0!3m2!1svi!2s!4v1602347493952!5m2!1svi!2s"
+        }
+    ]
+}

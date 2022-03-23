@@ -1,0 +1,49 @@
+<div class="d-block">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light position-absolute fixed-top" id="na">
+      <div class="container-fluid">
+         <!-- <a class="navbar-brand" href="#"><img src="assets/image/preview_4e7af8c599f34d3ebced061ac55ebd3d.jpg" class="img-fluid"></a> -->
+         <button class="navbar-toggler" type=" button" data-toggle="collapse" data-target="#navfood">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navfood">
+            <ul class="nav nav-pills navbar-nav ml-auto">
+               <li class="nav-item ml-2">
+                  <a href="/home" class="nav-link" routerLink="HOME">Home </a>
+               </li>
+               <li class="nav-item ml-2">
+                  <a href="/menu" class="nav-link" routerLink="MENU">Menu </a>
+               </li>
+               <li class="nav-item ml-2">
+                  <a href="/yourbill" class="nav-link" routerLink="YOURBILL">Cart </a>
+               </li>
+               <li class="nav-item ml-2" *ngIf="showAdminBoard">
+                  <a href="/admin" class="nav-link" routerLink="ADMIN">Admin Board</a>
+               </li>
+               <li class="nav-item ml-2" *ngIf="showModeratorBoard">
+                  <a href="/mod" class="nav-link" routerLink="MOD">Moderator Board</a>
+               </li>
+               <li class="nav-item ml-2">
+                  <a href="/user" class="nav-link" *ngIf="isLoggedIn" routerLink="USER">User</a>
+               </li>
+               <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn">
+                  <li class="nav-item ml-2">
+                     <a href="/profile" class="nav-link" routerLink="PROFILE">{{ username }}</a>
+                  </li>
+                  <li class="nav-item ml-2">
+                     <a href class="nav-link" (click)="logout()">LogOut</a>
+                  </li>
+               </ul>
+               <li class="nav-item ml-2">
+                  <a href="/register" class="nav-link" *ngIf="!isLoggedIn" routerLink="REGISTER">Sign Up</a>
+               </li>
+               <li class="nav-item ml-2">
+                  <a href="/login" class="nav-link" *ngIf="!isLoggedIn" routerLink="LOGIN">Login</a>
+               </li>
+            </ul>
+            
+         </div>
+      </div>
+   </nav>
+</div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

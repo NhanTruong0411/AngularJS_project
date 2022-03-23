@@ -1,0 +1,31 @@
+<div id="body">
+    <header>
+        <div class="container-fluid">
+            <h1>MENU</h1>
+        </div>
+    </header>
+    <article>
+        <div class="container-fluid" style="padding-bottom: 150px;">
+            <h1 class="pt-5 mb-5">GET FOOD FAST <span> &mdash; </span> NOT FAST FOOD.</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 p-0" *ngFor="let i of listProduct">
+                    <div class="cardanh card">
+                        <div class="card-body">
+                            <img src="{{i.ImageUrl}}" class="anh">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#co"
+                                aria-expanded="true">
+                                <h3 class="p-0 m-0"><i class="fa fa-stars"></i>{{i.ProName}}</h3>
+                            </button>
+                            <div id="co">
+                                <h4 class="text-dark">Price: {{i.Price}}$</h4>
+
+                                <button type="button" class="btn btn-yellow btn-md" style="color: white"><a
+                                        (click)="order(i)">Order</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

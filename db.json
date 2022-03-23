@@ -1,0 +1,62 @@
+{
+  "product": [
+    {
+      "name": "COMBO: MIX RICE & DIMSUM",
+      "price": 40,
+      "image": "assets/image/1.jpg",
+      "id": 1
+    },
+    {
+      "name": "LARGE PIZZA FOR 3 PEOPLE",
+      "price": 20,
+      "image": "assets/image/2.jpg",
+      "id": 2
+    },
+    {
+      "name": "FRENCH PORK GRILLED",
+      "price": 30,
+      "image": "assets/image/3.jpg",
+      "id": 3
+    },
+    {
+      "name": "PUMKIN SOURP",
+      "price": 80,
+      "image": "assets/image/4.jpg",
+      "id": 4
+    },
+    {
+      "name": "GRILLED BEEF",
+      "price": 30,
+      "image": "assets/image/5.jpg",
+      "id": 5
+    },
+    {
+      "name": "ENGLISH BREAK",
+      "price": 25,
+      "image": "assets/image/6.jpg",
+      "id": 6
+    },
+    {
+      "name": "HUMBERGER & FRENCH FRIES",
+      "price": 20,
+      "image": "assets/image/7.jpg",
+      "id": 7
+    },
+    {
+      "name": "ICE CREAM",
+      "price": 16,
+      "image": "assets/image/8.jpg",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "todos": []
+}

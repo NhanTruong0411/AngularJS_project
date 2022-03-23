@@ -1,0 +1,36 @@
+<h2 mat-dialog-title class="text-center">Add New Product</h2>
+<form [formGroup]="productForm">
+   <mat-dialog-content class="mat-typography">
+      <p>
+         <mat-form-field appearance="legacy" class="invisible">
+            <input matInput placeholder="Product name" formControlName="id" value="{{listProduct.length}}"/>
+         </mat-form-field>
+      </p>
+      <p>
+         <mat-form-field appearance="standard">
+            <mat-label>Product name</mat-label>
+            <input matInput placeholder="Product Name" formControlName="name" />
+         </mat-form-field>
+      </p>
+      <p>
+         <mat-form-field appearance="standard">
+            <mat-label>Price</mat-label>
+            <input matInput placeholder="Product Price" formControlName="price"  />
+         </mat-form-field>
+      </p>
+      <p>
+         <mat-form-field>
+            <ngx-mat-file-input matInput placeholder="Product Image" formControlName="image" >
+            </ngx-mat-file-input>
+         </mat-form-field>
+      </p>
+   </mat-dialog-content>
+</form>
+<mat-dialog-actions align="end">
+   <button class="btn btn-md btn-secondary mr-3" mat-button mat-dialog-close>
+      Cancel
+   </button>
+   <button class="btn btn-md btn-warning" mat-button [mat-dialog-close]="true" cdkFocusInitial (click)="addProduct()">
+      {{actionBtn}}
+   </button>
+</mat-dialog-actions>

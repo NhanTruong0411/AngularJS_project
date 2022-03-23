@@ -1,0 +1,29 @@
+footer{
+    background-color: rgba(30, 29, 29, 0.945);
+    color: white !important;
+    font-size: x-large;
+}
+footer .row .nav{ 
+    margin-left: auto;
+    margin-right: auto;	
+}
+footer .row .nav .nav-link{
+    color: white !important;
+}
+footer .row .nav .nav-link:hover{
+    color:  #E5A04A !important;
+}
+footer .row h6{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .theme-color {
+    color: #E5A04A !important;
+    cursor: pointer;
+}
+
+footer .theme-color:hover {
+    color: #e59f4a98 !important;
+    cursor: pointer;
+}

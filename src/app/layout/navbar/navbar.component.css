@@ -1,0 +1,26 @@
+nav {
+    background-color: rgba(30,29,29,0.80) !important;
+    font-size: x-large;
+    }
+nav img {
+    height: 50px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #E5A04A !important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    background-color: #E5A04A !important;
+    margin: 0px;
+}
+.bg{
+    background-color: rgb(70, 70, 51);
+}
+.navbar-toggler {
+    background-color: #E5A04A;
+}
+.navbar-toggler-icon{
+    background-color: #E5A04A;
+}

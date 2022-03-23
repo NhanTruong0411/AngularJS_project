@@ -1,0 +1,42 @@
+<div class="body">
+    <header><div class="container-fluid"><h1>Your Bill</h1></div></header>
+    <article>
+        <div class="container-fluid">
+            <h1 class="pt-5 pb-5"> <span> &mdash; </span> FOOD FOR YOUR HEATH <span> &mdash; </span> </h1>
+            <div class="row">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Option</th>
+                            <th>Tong</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="line-height: 100px;" *ngFor="let i of CardItems">
+                            <td><img width="100" [src]="i.ImageUrl" alt=""></td>
+                            <td>{{i.ProName}}</td>
+                            <td>{{i.Price}} $</td>
+                            <td>
+                                <a  class="btn btn-info btn-lg" (click)="decreaseQuantity(i)" ><</a>
+                                    {{i.Quantity}} 
+                                <a  class="btn btn-info btn-lg" (click)="increaseQuantity(i)">></a>
+                            </td>
+                            <td>
+                                <a  class="btn btn-info btn-danger" (click)="del(i)">del</a>
+                            </td>
+                            <td>{{i.Total}} $</td> 
+                        </tr>
+                        <tr>
+                            <td colspan="6" align="center" style=" font-weight: 900; font-size:30px; height: 100px; line-height: 100px;">Total: {{totalPrice}} </td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div> 
+            <h1><span>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span></h1>
+        </div>
+    </article>
+</div>
